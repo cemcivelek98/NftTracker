@@ -249,37 +249,37 @@ client = pymongo.MongoClient("mongodb+srv://cemcivelek:SerefsizJoe123@nftcluster
 db = client.NftPerformance
 nperf = db.NftPerformance
 result = nperf.insert_one(our_props)
-print(result.inserted_id)
+#print(result.inserted_id)
 traits = db.NftTraits
 result = traits.insert_one(our_traits)
-print(result.inserted_id)
-our_props
+#print(result.inserted_id)
+#our_props
 
 
 # In[ ]:
 
 
 
-    traits_dict = {
-        "trait_category": [],
-        "our_property": [],
-        "num_available": [],
-        "rarity": [],
-        "asset_name": []
-    }
-    traits_dict['trait_category'].append(0)
-    traits_dict
+#    traits_dict = {
+#        "trait_category": [],
+#        "our_property": [],
+#        "num_available": [],
+#        "rarity": [],
+#        "asset_name": []
+#    }
+#    traits_dict['trait_category'].append(0)
+#    traits_dict
 
 
 # In[ ]:
 
 
-Users(/cem/google-cloud-sdk/bin/gcloud, init)
+#Users(/cem/google-cloud-sdk/bin/gcloud, init)
 
 
 # In[1]:
 
 
-import pathlib
-pathlib.Path().resolve()
+#import pathlib
+#pathlib.Path().resolve()
 
