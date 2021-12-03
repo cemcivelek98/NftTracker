@@ -22,7 +22,7 @@ import rpa as r
 import requests
 from selenium import webdriver
 import os
-import pywhatkit
+#import pywhatkit
 from datetime import datetime
 from datetime import timedelta
 import time as ti
