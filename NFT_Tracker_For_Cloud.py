@@ -14,9 +14,9 @@
 #pip install selenium
 #!pip install "pymongo[srv]"
 import opensea
-from opensea import Asset
-from opensea import Assets
-from opensea import Collection
+#from opensea import Asset
+#from opensea import Assets
+#from opensea import Collection
 import pandas as pd
 import rpa as r
 import requests
