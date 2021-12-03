@@ -4,14 +4,14 @@
 # In[ ]:
 
 
-!pip install opensea-api
-!pip install selenium
-!pip install wappdriver
-!pip install pywhatkit
-!pip install pymongo
-!pip install pandas
-!pip install requests
-!pip install selenium
+pip install opensea-api
+pip install selenium
+pip install wappdriver
+pip install pywhatkit
+pip install pymongo
+pip install pandas
+pip install requests
+pip install selenium
 #!pip install "pymongo[srv]"
 import opensea
 from opensea import Asset
